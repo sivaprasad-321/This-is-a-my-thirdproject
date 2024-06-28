@@ -138,6 +138,9 @@ public class Currency {
 			currencies.get(i).defaultValues();
 		}		
 		
+		
+		
+		
 		return currencies;
 	}
 	
