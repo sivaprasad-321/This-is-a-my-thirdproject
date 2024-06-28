@@ -27,6 +27,9 @@ public class Currency {
 	
 	
 	
+	
+	
+	
 	// Getter for shortName
 	public String getShortName() {
 		return this.shortName;
@@ -137,6 +140,11 @@ public class Currency {
 		
 		return currencies;
 	}
+	
+	
+	
+	
+	
 	
 	// Convert a currency to another
 	public static Double convert(Double amount, Double exchangeValue) {
