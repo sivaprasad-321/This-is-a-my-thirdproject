@@ -24,6 +24,12 @@ public class Currency {
 		this.name = name;
 	}
 	
+	
+	
+	
+	
+	
+	
 	// Getter for shortName
 	public String getShortName() {
 		return this.shortName;
@@ -130,10 +136,14 @@ public class Currency {
 		
 		for (Integer i =0; i < currencies.size(); i++) {
 			currencies.get(i).defaultValues();
-		}		
-		
-		return currencies;
+
+		}		return currencies;
 	}
+	
+	
+	
+	
+	
 	
 	// Convert a currency to another
 	public static Double convert(Double amount, Double exchangeValue) {
