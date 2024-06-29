@@ -136,12 +136,8 @@ public class Currency {
 		
 		for (Integer i =0; i < currencies.size(); i++) {
 			currencies.get(i).defaultValues();
-		}		
-		
-		
-		
-		
-		return currencies;
+
+		}		return currencies;
 	}
 	
 	
